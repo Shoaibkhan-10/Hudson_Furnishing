@@ -1,0 +1,299 @@
+/* # About work start
+--------------------------------------------------------------*/ 
+#hero1 {
+  width: 100%;
+  height: 100vh;
+  background: url("images/Logo/img3.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+.abouut{
+  color: white;
+  font-size: 75px;
+  margin: 50px;
+  text-align: center;
+  font-family: Helvetica;
+  background: #0c0b09;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  box-shadow: 0 0 5px #cda45e ,
+              0 0 25px #cda45e;
+  border-radius: 1cm;
+  transition: 0s;
+}
+.abouut:hover{
+  background: transparent;
+  border: 1px solid #cda45e;
+  cursor: pointer;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  margin: 0px auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.h1{
+  width: 100%;
+  display: flex;
+  margin: 0px auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content h1{
+  font-size: 100px;
+  font-family: serif;
+  color: #fff;
+  letter-spacing: 1;
+  margin-bottom: 25px;
+}
+
+.about{
+  /* min-width: 100vh; */
+  width: 100%;
+  padding: 78px 0px;
+  background-color: #0c0b09;
+}
+
+.about img{
+  background: #0c0b09;
+  color: #cda45e;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  box-shadow: 0 0 5px #cda45e ,
+              0 0 25px #cda45e;
+  height:500px;
+  width: 300px;
+  border-radius: 1cm;
+  transition: 0.5s;
+}
+
+.about img:hover{
+  background: transparent;
+  border: 2px solid #cda45e;
+  cursor: pointer;
+}
+.about-text{
+  width: 550px;
+}
+
+.main{
+  /* width: 1130px;
+  max-width: 95%;
+  margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h1{
+  color: white;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+span{
+  color: #cda45e;
+}
+
+.about-text p{
+  color: #fff;
+  letter-spacing: 3px;
+  line-height: 28px;
+  font-size: 20px;
+  margin-bottom: 45px;
+}
+button{
+  background: #cda45e;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+}
+button:hover{
+  background: transparent;
+  border: 2px solid #cda45e;
+  cursor: pointer;
+}
+
+.service{
+  background: black;
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.title h2{
+  color: white;
+  font-size: 75px;
+  /* width: 1130px; */
+  margin: 30px auto;
+  text-align: center;
+}
+span{
+  color: #cda45e;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+/* when screen width is less than 901px make box vertical and main content vertical direction  */
+
+@media screen and (max-width: 901px){
+  .main{
+    flex-direction: column;
+  }
+  .box {
+    flex-direction: column;
+  }
+  
+}
+
+
+.card{
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card i{
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: #cda45e;
+}
+h5{
+  color: #cda45e;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.pra p{
+  color: #fff;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.card{
+  background: #0c0b09;
+  color: #cda45e;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  box-shadow: 0 0 3px #cda45e ,
+              0 0 25px #cda45e;
+  height: auto;
+  width: 365px;
+  border-radius: 1cm;
+  transition: 0.5s;
+}
+.card:hover{
+  background: transparent;
+  border: 2px solid #cda45e;
+  cursor: pointer;
+}
+
+
+.card .button{
+  background-color: #cda45e;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+.card .button:hover{
+  background-color: transparent;
+  border: 2px solid #cda45e;
+  cursor: pointer;
+}
+.modal-content{
+  background: #0c0b09;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  box-shadow: 0 0 3px #cda45e ,
+              0 0 25px #cda45e;
+  height: auto;
+  width: 365px;
+  border-radius: 1cm;
+  transition: 0.5s
+}
+
+.btn-secondary{
+  background: black;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  box-shadow: 0 0 3px #cda45e ,
+              0 0 25px #cda45e;
+  border-radius: 1cm;
+  transition: 0.5s
+}
+
+.btn-secondary:hover{
+  background: transparent;
+  border: 2px solid #cda45e;
+  cursor: pointer;
+}
+.card img{
+  background: black;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  box-shadow: 0 0 1px #cda45e ,
+              0 0 25px #cda45e;
+  border-radius: 1cm;
+  transition: 0.5s
+}
+.card img:hover{
+  background: transparent;
+  border: 2px solid #cda45e;
+  cursor: pointer;
+}
+/* ----------------------------End----------------------------------*/
+
+
+/* # gallery work start
+--------------------------------------------------------------*/
+#hero2 {
+  width: 100%;
+  height: 100vh;
+  background: url("images/Livingroom/img17.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
